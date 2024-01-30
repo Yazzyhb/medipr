@@ -244,19 +244,7 @@
             </select>
             <div class="validate"></div>
           </div>
-          <div class="col-md-4 form-group mt-3">
-            <select v-model="formData.doctor" name="doctor" id="doctor" class="form-select">
-              <option value="">Select Doctor</option>
-              <option value="Doctor 1">Walter White</option>
-              <option value="Doctor 2">Sarah Jhonson</option>
-              <option value="Doctor 3">Daniel Williams</option>
-              <option value="Doctor 4">Emily Clark</option>
-
-
-            </select>
-            <div class="validate"></div>
-          </div>
-        </div>
+          
 
         <div class="form-group mt-3">
           <textarea v-model="formData.message" class="form-control" name="message" rows="5" placeholder="Additional Informations(Optional)"></textarea>
